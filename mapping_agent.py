@@ -4,6 +4,7 @@ import anthropic
 import json
 from io import BytesIO
 # For Excel export.
+import openpyxl
 # Page config
 st.set_page_config(page_title="AI Franchise Identifier", page_icon="🎯", layout="wide")
 
